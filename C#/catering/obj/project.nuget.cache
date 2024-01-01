@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yKnK24mb9jIuldriabx6k9H4XYCYw2BR5mZMMv2zLRsmMx9vDwYzzSHHXzNM1v92cbWcDL7YWsb4Xx1V8MxjRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jcwm2\\OneDrive\\Desktop\\C#\\catering\\Catering.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jcwm2\\.nuget\\packages\\phidget22.net\\1.15.20230616\\phidget22.net.1.15.20230616.nupkg.sha512"
+  ],
+  "logs": []
+}

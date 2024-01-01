@@ -1,0 +1,15 @@
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\bin\Debug\net6.0\craps.exe
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\bin\Debug\net6.0\craps.deps.json
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\bin\Debug\net6.0\craps.runtimeconfig.json
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\bin\Debug\net6.0\craps.dll
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\bin\Debug\net6.0\craps.pdb
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\craps.csproj.AssemblyReference.cache
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\craps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\craps.AssemblyInfoInputs.cache
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\craps.AssemblyInfo.cs
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\craps.csproj.CoreCompileInputs.cache
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\craps.dll
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\refint\craps.dll
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\craps.pdb
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\craps.genruntimeconfig.cache
+C:\Users\jcwm2\OneDrive\Desktop\C#\craps\craps\obj\Debug\net6.0\ref\craps.dll

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Catering/1.0.0": {
+        "dependencies": {
+          "Phidget22.NET": "1.15.20230616"
+        },
+        "runtime": {
+          "Catering.dll": {}
+        }
+      },
+      "Phidget22.NET/1.15.20230616": {
+        "runtime": {
+          "lib/netcoreapp2.0/Phidget22.NET.dll": {
+            "assemblyVersion": "1.1.15.12",
+            "fileVersion": "1.1.15.12"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Catering/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Phidget22.NET/1.15.20230616": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N6rOu8LvHzYymrD6tPRQeNdEdQBcD/dfne51xzLOw27gb9xMsId4akScXU6mADfWqIGaQ2f3okWG9g8fCu3OsQ==",
+      "path": "phidget22.net/1.15.20230616",
+      "hashPath": "phidget22.net.1.15.20230616.nupkg.sha512"
+    }
+  }
+}
