@@ -1,0 +1,16 @@
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\bin\Debug\net6.0\numbers.txt
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\bin\Debug\net6.0\File IO.exe
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\bin\Debug\net6.0\File IO.deps.json
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\bin\Debug\net6.0\File IO.runtimeconfig.json
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\bin\Debug\net6.0\File IO.dll
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\bin\Debug\net6.0\File IO.pdb
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\File IO.csproj.AssemblyReference.cache
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\File IO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\File IO.AssemblyInfoInputs.cache
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\File IO.AssemblyInfo.cs
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\File IO.csproj.CoreCompileInputs.cache
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\File IO.dll
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\refint\File IO.dll
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\File IO.pdb
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\File IO.genruntimeconfig.cache
+C:\Users\jcwm2\OneDrive\Desktop\C#\File IO\obj\Debug\net6.0\ref\File IO.dll

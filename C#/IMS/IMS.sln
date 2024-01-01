@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMS", "IMS\IMS.csproj", "{67F8FD98-BC43-4FF9-86F2-C6B41816630B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "craps", "..\craps\craps\craps.csproj", "{86639420-4165-4687-96E6-D14B2BFC803B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloprgram", "..\helloprgram\helloprgram\helloprgram.csproj", "{F34CB236-4846-4EB9-94FE-36FAC32B68FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67F8FD98-BC43-4FF9-86F2-C6B41816630B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F8FD98-BC43-4FF9-86F2-C6B41816630B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F8FD98-BC43-4FF9-86F2-C6B41816630B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F8FD98-BC43-4FF9-86F2-C6B41816630B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86639420-4165-4687-96E6-D14B2BFC803B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86639420-4165-4687-96E6-D14B2BFC803B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86639420-4165-4687-96E6-D14B2BFC803B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86639420-4165-4687-96E6-D14B2BFC803B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34CB236-4846-4EB9-94FE-36FAC32B68FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34CB236-4846-4EB9-94FE-36FAC32B68FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34CB236-4846-4EB9-94FE-36FAC32B68FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34CB236-4846-4EB9-94FE-36FAC32B68FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C021C0-BC2A-44E1-9067-67E29E5DF135}
+	EndGlobalSection
+EndGlobal
