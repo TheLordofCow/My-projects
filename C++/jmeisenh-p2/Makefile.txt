@@ -1,0 +1,7 @@
+all: threads
+
+example: threads.c
+	gcc -Wall -Wextra threads.c -o threads -pthread
+
+clean:
+	rm -f threads

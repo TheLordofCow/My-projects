@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#SBATCH --job-name=threads
+#SBATCH --partition=Centaurus
+#SBATCH --output=slurm_out.txt
+#SBATCH --ntasks=19
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100
+#SBATCH --time=00:10
+
+./hello

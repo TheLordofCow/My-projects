@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">feeling</string>
+    <string name="nameLabel">Name</string>
+    <string name="ageLabel">Age</string>
+    <string name="nameHint">Enter Name</string>
+    <string name="age_Hint">Enter Age</string>
+    <string name="howFeeling">How are you feeling?</string>
+    <string name="howFeeling2">How You Are Feeling:</string>
+    <string name="TellUs">Tell Us</string>
+    <string name="submit">Submit</string>
+    <string name="two">2</string>
+    <string name="cancel">Cancel</string>
+</resources>

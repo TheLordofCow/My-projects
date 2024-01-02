@@ -1,0 +1,143 @@
+Welcome to War.
+#cards in hand1: 26#cards in hand2: 26
+#(cards in hand1)=25 #(cards in hand2)=25 #(cards in stack1)=1 #(cards in stack2)=1
+Kc Qc
+Player 1 gets the cards
+Pop off empty stack
+In round 1 #cards in hand1: 26#cards in hand2: 25
+#(cards in hand1)=25 #(cards in hand2)=24 #(cards in stack1)=1 #(cards in stack2)=1
+Jc Tc
+Player 1 gets the cards
+Pop off empty stack
+In round 2 #cards in hand1: 26#cards in hand2: 24
+#(cards in hand1)=25 #(cards in hand2)=23 #(cards in stack1)=1 #(cards in stack2)=1
+9c 8c
+Player 1 gets the cards
+Pop off empty stack
+In round 3 #cards in hand1: 26#cards in hand2: 23
+#(cards in hand1)=25 #(cards in hand2)=22 #(cards in stack1)=1 #(cards in stack2)=1
+7c 6c
+Player 1 gets the cards
+Pop off empty stack
+In round 4 #cards in hand1: 26#cards in hand2: 22
+#(cards in hand1)=25 #(cards in hand2)=21 #(cards in stack1)=1 #(cards in stack2)=1
+5c 4c
+Player 1 gets the cards
+Pop off empty stack
+In round 5 #cards in hand1: 26#cards in hand2: 21
+#(cards in hand1)=25 #(cards in hand2)=20 #(cards in stack1)=1 #(cards in stack2)=1
+3c 2c
+Player 1 gets the cards
+Pop off empty stack
+In round 6 #cards in hand1: 26#cards in hand2: 20
+#(cards in hand1)=25 #(cards in hand2)=19 #(cards in stack1)=1 #(cards in stack2)=1
+Ac Kd
+Player 2 gets the cards
+Pop off empty stack
+In round 7 #cards in hand1: 25#cards in hand2: 20
+#(cards in hand1)=24 #(cards in hand2)=19 #(cards in stack1)=1 #(cards in stack2)=1
+Qd Jd
+Player 1 gets the cards
+Pop off empty stack
+In round 8 #cards in hand1: 25#cards in hand2: 19
+#(cards in hand1)=24 #(cards in hand2)=18 #(cards in stack1)=1 #(cards in stack2)=1
+Td 9d
+Player 1 gets the cards
+Pop off empty stack
+In round 9 #cards in hand1: 25#cards in hand2: 18
+#(cards in hand1)=24 #(cards in hand2)=17 #(cards in stack1)=1 #(cards in stack2)=1
+8d 7d
+Player 1 gets the cards
+Pop off empty stack
+In round 10 #cards in hand1: 25#cards in hand2: 17
+#(cards in hand1)=24 #(cards in hand2)=16 #(cards in stack1)=1 #(cards in stack2)=1
+6d 5d
+Player 1 gets the cards
+Pop off empty stack
+In round 11 #cards in hand1: 25#cards in hand2: 16
+#(cards in hand1)=24 #(cards in hand2)=15 #(cards in stack1)=1 #(cards in stack2)=1
+4d 3d
+Player 1 gets the cards
+Pop off empty stack
+In round 12 #cards in hand1: 25#cards in hand2: 15
+#(cards in hand1)=24 #(cards in hand2)=14 #(cards in stack1)=1 #(cards in stack2)=1
+2d Ad
+Player 1 gets the cards
+Pop off empty stack
+In round 13 #cards in hand1: 25#cards in hand2: 14
+#(cards in hand1)=24 #(cards in hand2)=13 #(cards in stack1)=1 #(cards in stack2)=1
+Kh Qh
+Player 1 gets the cards
+Pop off empty stack
+In round 14 #cards in hand1: 25#cards in hand2: 13
+#(cards in hand1)=24 #(cards in hand2)=12 #(cards in stack1)=1 #(cards in stack2)=1
+Jh Th
+Player 1 gets the cards
+Pop off empty stack
+In round 15 #cards in hand1: 25#cards in hand2: 12
+#(cards in hand1)=24 #(cards in hand2)=11 #(cards in stack1)=1 #(cards in stack2)=1
+9h 8h
+Player 1 gets the cards
+Pop off empty stack
+In round 16 #cards in hand1: 25#cards in hand2: 11
+#(cards in hand1)=24 #(cards in hand2)=10 #(cards in stack1)=1 #(cards in stack2)=1
+7h 6h
+Player 1 gets the cards
+Pop off empty stack
+In round 17 #cards in hand1: 25#cards in hand2: 10
+#(cards in hand1)=24 #(cards in hand2)=9 #(cards in stack1)=1 #(cards in stack2)=1
+5h 4h
+Player 1 gets the cards
+Pop off empty stack
+In round 18 #cards in hand1: 25#cards in hand2: 9
+#(cards in hand1)=24 #(cards in hand2)=8 #(cards in stack1)=1 #(cards in stack2)=1
+3h 2h
+Player 1 gets the cards
+Pop off empty stack
+In round 19 #cards in hand1: 25#cards in hand2: 8
+#(cards in hand1)=24 #(cards in hand2)=7 #(cards in stack1)=1 #(cards in stack2)=1
+Ah Ks
+Player 2 gets the cards
+Pop off empty stack
+In round 20 #cards in hand1: 24#cards in hand2: 8
+#(cards in hand1)=23 #(cards in hand2)=7 #(cards in stack1)=1 #(cards in stack2)=1
+Qs Js
+Player 1 gets the cards
+Pop off empty stack
+In round 21 #cards in hand1: 24#cards in hand2: 7
+#(cards in hand1)=23 #(cards in hand2)=6 #(cards in stack1)=1 #(cards in stack2)=1
+Ts 9s
+Player 1 gets the cards
+Pop off empty stack
+In round 22 #cards in hand1: 24#cards in hand2: 6
+#(cards in hand1)=23 #(cards in hand2)=5 #(cards in stack1)=1 #(cards in stack2)=1
+8s 7s
+Player 1 gets the cards
+Pop off empty stack
+In round 23 #cards in hand1: 24#cards in hand2: 5
+#(cards in hand1)=23 #(cards in hand2)=4 #(cards in stack1)=1 #(cards in stack2)=1
+6s 5s
+Player 1 gets the cards
+Pop off empty stack
+In round 24 #cards in hand1: 24#cards in hand2: 4
+#(cards in hand1)=23 #(cards in hand2)=3 #(cards in stack1)=1 #(cards in stack2)=1
+4s 3s
+Player 1 gets the cards
+Pop off empty stack
+In round 25 #cards in hand1: 24#cards in hand2: 3
+#(cards in hand1)=23 #(cards in hand2)=2 #(cards in stack1)=1 #(cards in stack2)=1
+2s As
+Player 1 gets the cards
+Pop off empty stack
+In round 26 #cards in hand1: 24#cards in hand2: 2
+#(cards in hand1)=23 #(cards in hand2)=1 #(cards in stack1)=1 #(cards in stack2)=1
+Kc Ac
+Player 1 gets the cards
+Pop off empty stack
+In round 27 #cards in hand1: 24#cards in hand2: 1
+#(cards in hand1)=23 #(cards in hand2)=0 #(cards in stack1)=1 #(cards in stack2)=1
+Jc Ah
+Player 1 gets the cards
+Pop off empty stack
+Player 1 wins!
+In round 28 #cards in hand1: 24#cards in hand2: 0

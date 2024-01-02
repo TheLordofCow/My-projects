@@ -1,0 +1,50 @@
+DROP DATABASE IF EXISTS music;
+
+CREATE DATABASE IF NOT EXISTS music;
+
+USE music;
+
+CREATE TABLE IF NOT EXISTS song (
+    username VARCHAR(255) NOT NULL,
+    artist_first_name VARCHAR(255) NOT NULL,
+    artist_last_name VARCHAR(255) NOT NULL,
+    duration VARCHAR(255) NOT NULL,
+    genre VARCHAR(255) NOT NULL,
+    explicit BOOL NULL DEFAULT 0,
+    song_link VARCHAR(255) NOT NULL,
+    PRIMARY KEY (title)
+);
+
+CREATE TABLE IF NOT EXISTS artist (
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    birthday VARCHAR(255) NOT NULL,
+    PRIMARY KEY (first_name),
+    FOREIGN KEY (first_name) REFERENCES song(artist_first_name) ON UPDATE CASCADE ON DELETE SET NULL,
+    FOREIGN KEY (last_name) REFERENCES song(artist_last_name) ON UPDATE CASCADE ON DELETE SET NULL
+);
+
+CREATE TABLE IF NOT EXISTS users (
+	email VARCHAR(255) NOT NULL,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    passcode VARCHAR(255) NOT NULL,
+    PRIMARY KEY (email),
+    UNIQUE (emial)
+);
+
+CREATE TABLE IF NOT EXISTS playlist (
+	email VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    PRIMARY KEY (email),
+    FOREIGN KEY (email) REFERENCES users(email) ON UPDATE CASCADE ON DELETE SET NULL,
+    FOREIGN KEY (title) REFERENCES song(title) ON UPDATE CASCADE ON DELETE SET NULL
+);
+
+CREATE TABLE IF NOT EXISTS favorites (
+	email VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    PRIMARY KEY (email),
+    FOREIGN KEY (email) REFERENCES users(email) ON UPDATE CASCADE ON DELETE SET NULL,
+    FOREIGN KEY (title) REFERENCES song(title) ON UPDATE CASCADE ON DELETE SET NULL
+);

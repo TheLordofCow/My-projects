@@ -1,0 +1,34 @@
+{% extends '_layout.html' %}
+
+{% block title %}Movie Rating App | Create Movie Rating{% endblock %}
+
+{% block body %}
+<h1 class="mb-5">Create Movie Rating</h1>
+<p class="mb-3">Create a movie rating below</p>
+<!-- TODO: Feature 2 -->
+
+<form action="" method="post">
+    <div class="field">
+        <label for="movie title" class="label">Movie Title</label>
+        <div class="control">
+            <input type="text" name="movie title" class="input" required="required"/>
+        </div>
+    </div>
+
+    <div class="field">
+        <label for="year" class=""label>Year</label>
+    <div class="control">
+        <input type="number" name="year" class="input"
+            min="{{ min_year}}" max="{{max_year}}"/>
+     </div>
+    </div>
+
+    <div class="field is-grouped">
+        <div class="control">
+            <button class="button is-primary is-small">Submit</button>
+        </div>
+    </div>
+</form>
+
+
+{% endblock %}

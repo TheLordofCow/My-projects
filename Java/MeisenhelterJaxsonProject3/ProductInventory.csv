@@ -1,0 +1,16 @@
+type,ProductID,title,author/artist,Stock,price
+book,0,fahrenheit_451,ray bradbury,8,9.99
+book,1,1984,george orwell,5,15.99
+book,2,to_kill_a_mockingbird,harper lee,12,12.99
+book,3,beloved,toni morrison,4,13.5
+book,4,the_little_prince,antoine de saint exupéry,10,7
+book,5,brave_new_world,aldous huxley,15,19
+book,6,charlotte's_web,e.b. white,10,8.99
+book,7,hitchhiker's_guide_to_the_galaxy,douglas adams,5,9.99
+book,8,catch-22,joseph heller,20,11.99
+book,9,flowers_for_algernon,daniel keyes,7,6.99
+cd,10,a_night_at_the_opera,queen,14,6.99
+cd,11,cuz_I_love_you,lizzo,8,7.99
+cd,12,a_hard_day's_night,the beatles,3,3.99
+dvd,13,the_dark_knight,n/a,5,12.99
+dvd,14,jurassic_park,n/a ,7,7.99
