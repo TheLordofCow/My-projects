@@ -1,0 +1,30 @@
+<input type="text" id="txt-price" placeholder="Enter the price of the item"> <!-- creates a text box called txt-price that asks for the price of the item -->
+<input type="text" id="txt-quantity" placeholder="Enter the quanity of the item"> <!-- creates a text box called txt-quantity that says "Enter the quanity of the item" -->
+<button id="btn-submit">Calculate</button>  <!-- activates something when the "caculate" button is pressed -->
+<div id="output"></div> <!-- might just be text -->
+
+<script>
+  //pulls elements from the inputs above and places them into variables
+  var priceInput = document.getElementById('txt-price');
+  var quantityInput = document.getElementById('txt-quantity');
+  var submitBtn = document.getElementById('btn-submit');
+  var output = document.getElementById('output');
+  //when the button is clicked on, price and quanity are placed into new variables
+  submitBtn.addEventListener('click', function () {
+    var price = priceInput.value;
+    var quanity = quantityInput.value;
+    //no idea what +price or +quanity does. Possibly turns strings into ints?
+    price = +price;
+    quanity = +quanity;
+    //checks if price and quanity are numbers
+    if (Number.isNaN(price) || Number.isNaN(quanity)) {
+      output.innerHTML = 'Invalid input';
+      return;
+    }
+    //multiplies price by quanity and rounds it to the nearest hundredth and stores that in totalPrice
+    var totalPrice = price * quanity;
+    totalPrice = Math.round(totalPrice * 100) / 100;
+    //displays quanity, price, and the totalPrice
+    output.innerHTML = quanity + ' items at $' + price + ' each is $' + totalPrice;
+  });
+</script>
