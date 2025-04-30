@@ -1,0 +1,17 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:slow_falling",
+    "origins:fragile",
+    "origins:elytra",
+    "origins-plus-plus:mothling/boost2",
+    "origins-plus-plus:mothling/lantern",
+    "origins-plus-plus:mothling/leather_diet",
+    "origins-plus-plus:mothling/no_food",
+    "origins-plus-plus:mothling/small",
+    "origins-plus-plus:mothling/zapper"
+  ],
+  "icon": "minecraft:rabbit_hide",
+  "order": 66,
+  "impact": 3
+}

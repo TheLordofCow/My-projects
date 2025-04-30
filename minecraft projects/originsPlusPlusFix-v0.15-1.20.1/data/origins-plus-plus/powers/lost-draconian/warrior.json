@@ -1,0 +1,8 @@
+{
+  "loading_priority": 10,
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "addition",
+    "value": 2
+  }
+}

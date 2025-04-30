@@ -1,0 +1,52 @@
+{
+  "loading_priority": 10,
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 1,
+      "show_particles": false,
+      "show_icon": false
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 1,
+      "show_particles": false,
+      "show_icon": false
+    }
+  ],
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:daytime",
+        "inverted": true
+      },
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:dimension",
+            "dimension": "minecraft:overworld"
+          },
+          {
+            "type": "origins:dimension",
+            "dimension": "aether:the_aether"
+          },
+          {
+            "type": "origins:dimension",
+            "dimension": "twilightforest:twilight_forest"
+          }
+        ]
+      },
+      {
+        "type": "origins:status_effect",
+        "effect": "minecraft:night_vision",
+        "inverted": true
+      }
+    ]
+  }
+}

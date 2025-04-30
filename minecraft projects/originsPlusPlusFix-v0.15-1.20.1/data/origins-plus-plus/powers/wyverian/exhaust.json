@@ -1,0 +1,10 @@
+{
+  "name": "power.origins-plus-plus.kirin/exhaustion.name",
+  "description": "power.origins-plus-plus.kirin/exhaustion.description",
+  "loading_priority": 10,
+  "type": "origins:modify_exhaustion",
+  "modifier":{
+    "operation": "multiply_base",
+    "value": 1.5
+  }
+}

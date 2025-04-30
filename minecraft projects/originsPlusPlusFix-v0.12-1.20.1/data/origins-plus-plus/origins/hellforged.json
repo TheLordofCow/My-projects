@@ -1,0 +1,20 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:nether_spawn",
+		"origins:fire_immunity",
+		"origins-plus-plus:hellforged/lava_eater",
+		"origins-plus-plus:hellforged/heat_powered",
+		"origins-plus-plus:volcanic-dragon/lava_vision",
+		"origins-plus-plus:hellforged/slow_swim",
+		"origins-plus-plus:hellforged/strong_swim",
+		"origins-plus-plus:hellforged/superheated",
+		"origins-plus-plus:hellforged/water_vulnerability",
+		"origins-plus-plus:hellforged/heated_flight",
+		"origins-plus-plus:hellforged/natural_toughness",
+		"origins-plus-plus:hellforged/slow_fall"
+	],
+	"icon":"minecraft:netherite_ingot",
+	"order":47,
+	"impact":3
+}

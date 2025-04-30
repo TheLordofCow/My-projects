@@ -1,0 +1,15 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:elytra",
+		"origins:slow_falling",
+		"origins:fall_immunity",
+		"origins:vegetarian",
+		"origins-plus-plus:pixie/bite_sized",
+		"origins-plus-plus:pixie/effect_luck",
+		"origins-plus-plus:pixie/flying2"
+	],
+	"icon":"minecraft:glowstone_dust",
+	"order":72,
+	"impact":3
+}

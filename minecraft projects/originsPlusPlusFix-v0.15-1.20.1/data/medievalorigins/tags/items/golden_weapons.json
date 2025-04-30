@@ -1,0 +1,15 @@
+{
+  "loading_priority": 10,
+  "replace": false,
+  "values": [
+    "minecraft:golden_sword",
+    {"id":"epicempires:egyptian_fan_axe","required":false},
+    {"id":"epicempires:spartan_spear","required":false},
+    {"id":"epicempires:spartan_sword","required":false},
+    {"id":"epicempires:egyptian_khopesh","required":false},
+    {"id":"cataclysm:khopesh","required":false},
+    {"id":"simplyswords:righteous_relic","required":false},
+    {"id":"simplyswords:sunfire","required":false},
+    {"id":"stalwart_dungeons:golden_hammer","required":false}
+  ]
+}

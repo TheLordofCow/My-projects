@@ -1,0 +1,30 @@
+{
+  "name": "power.origins-plus-plus.mothling/boost.name",
+  "description": "power.origins-plus-plus.mothling/boost.description",
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "boost": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:add_velocity",
+      "y": 0.6
+    },
+    "cooldown": 20,
+    "key": "key.jump",
+    "condition": {
+      "type": "origins:fall_flying"
+    }
+  },
+  "sound_effect": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:entity.parrot.fly"
+    },
+    "cooldown": 20,
+    "key": "key.jump",
+    "condition": {
+      "type": "origins:fall_flying"
+    }
+  }
+}

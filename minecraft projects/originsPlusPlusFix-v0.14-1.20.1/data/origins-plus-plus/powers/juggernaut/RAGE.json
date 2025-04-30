@@ -1,0 +1,271 @@
+{
+	"loading_priority":10,
+	"name":"RAGE",
+	"description":"Gain increasing strength, haste, and speed for 5 seconds for every kill.",
+	"type": "origins:multiple",
+    "kills": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 19,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 5,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_kills",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        },
+        "max_action":{
+		"type":"origins:apply_effect",
+		"effects":[
+			{
+				"effect":"minecraft:resistance",
+				"duration":-1,
+				"show_particles":false,
+                "amplifier": 1,
+				"show_icon":false
+			},
+			{
+				"effect":"minecraft:regeneration",
+				"duration":-1,
+				"show_particles":false,
+                "amplifier": 1,
+				"show_icon":false
+			}
+		]
+	}
+    },
+    "strength": {
+        "type": "origins:modify_status_effect_amplifier",
+        "status_effect": "minecraft:strength",
+        "modifier": {
+            "operation": "addition",
+            "value": 0,
+            "resource": "*:*_kills"
+        }
+    },
+	"haste": {
+        "type": "origins:modify_status_effect_amplifier",
+        "status_effect": "minecraft:haste",
+        "modifier": {
+            "operation": "addition",
+            "value": 0,
+            "resource": "*:*_kills"
+        }
+    },
+	"speed": {
+        "type": "origins:modify_status_effect_amplifier",
+        "status_effect": "minecraft:speed",
+        "modifier": {
+            "operation": "addition",
+            "value": 0,
+            "resource": "*:*_kills"
+        }
+    },
+    "stacking_stats": {
+        "type": "origins:self_action_on_kill",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_kills",
+                    "change": 1,
+                    "operation": "add"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:strength",
+                        "duration": 300,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                },
+				{
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:haste",
+                        "duration": 300,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                },
+				{
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:speed",
+                        "duration": 300,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                }
+            ]
+        },
+        "cooldown":5,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "combat": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "tickdown": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_combat",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_combat",
+            "change": -1,
+            "operation": "add"
+        }
+    },
+    "stackdecay": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_combat",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_kills",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 60,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_kills",
+                    "change": -1,
+                    "operation": "add"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:strength"
+                },
+				{
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:haste"
+                },
+				{
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:speed"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:regeneration",
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_kills",
+                        "comparison": "==",
+                        "compare_to": 19
+                    }
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:resistance",
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_kills",
+                        "comparison": "==",
+                        "compare_to": 19
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:strength",
+                            "duration": 62,
+                            "amplifier": 0,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:haste",
+                            "duration": 62,
+                            "amplifier": 0,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:speed",
+                            "duration": 62,
+                            "amplifier": 0,
+                            "show_particles": false,
+                            "show_icon": true
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "hurt": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_combat",
+            "change": 100,
+            "operation": "set"
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "hurted": {
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_combat",
+            "change": 100,
+            "operation": "set"
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+		    "type":"origins:execute_command",
+		    "command":"resource set @s origins-plus-plus:juggernaut/RAGE 0"
+		}
+	},
+    "respawn2":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+		    "type":"origins:clear_effect"
+		}
+	}
+}

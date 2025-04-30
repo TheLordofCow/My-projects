@@ -1,0 +1,26 @@
+{
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "burn_in_sunlight": {
+    "type": "origins:burn",
+    "interval": 20,
+    "burn_duration": 2,
+    "condition": {
+      "type": "origins:exposed_to_sun"
+    }
+  },
+  "sun_weakness": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+      "effect": "minecraft:weakness",
+      "show_particles": false,
+      "show_icon": false
+    },
+    "condition": {
+      "type": "origins:exposed_to_sun"
+    }
+  }
+}

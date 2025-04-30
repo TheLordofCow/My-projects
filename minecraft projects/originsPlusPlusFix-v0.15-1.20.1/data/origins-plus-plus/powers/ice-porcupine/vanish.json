@@ -1,0 +1,38 @@
+{
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "stealth": {
+    "type": "origins:active_self",
+    "key": "key.origins.secondary_active",
+    "cooldown": 200,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+      "bar_index": 5
+    },
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:ice-porcupine/vanish2"
+    }
+  },
+  "end": {
+    "type": "origins:active_self",
+    "key": "key.origins.secondary_active",
+    "cooldown": 200,
+    "entity_action": {
+      "type": "origins:delay",
+      "ticks": 120,
+      "action": {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:ice-porcupine/size2"
+      }
+    }
+  },
+  "invis": {
+    "type": "origins:invisibility",
+    "condition": {
+	  "type": "origins:status_effect",
+	  "effect": "minecraft:invisibility"
+	},
+	"render_armor": false
+  }
+}

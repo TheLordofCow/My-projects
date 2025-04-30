@@ -1,0 +1,23 @@
+{
+  "name": "End Escape",
+  "description": "You can escape to the Overworld by right clicking on the end portal. You can also go back to the End by sleeping.",
+  "type": "origins:multiple",
+  "end_portal": {
+    "type": "origins:action_on_block_use",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "execute in minecraft:overworld as @s run tp ~ 400 ~"
+    },
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:end_portal"
+    }
+  },
+  "bed_teleport": {
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "execute in minecraft:the_end as @s run tp ~ 400 ~"
+    }
+  }
+}

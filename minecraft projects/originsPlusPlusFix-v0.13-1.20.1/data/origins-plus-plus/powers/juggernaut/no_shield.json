@@ -1,0 +1,11 @@
+{
+  "name":"No Shields",
+  "description":"Shields are for cowards!",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:shields"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"loading_priority": 10,
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"explosion"
+	},
+	"modifier":{
+		"value":1,
+		"operation":"multiply_total"
+	}
+}

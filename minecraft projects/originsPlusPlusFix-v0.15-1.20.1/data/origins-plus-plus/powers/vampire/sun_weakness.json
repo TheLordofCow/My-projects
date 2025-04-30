@@ -1,0 +1,41 @@
+{
+  "name": "Sun Vulnerability",
+  "description": "You burn in and are weakened by sunlight.",
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "effects": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effects": [
+      {
+        "effect": "minecraft:weakness",
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:slowness",
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:exposed_to_sun"
+        }
+      ]
+    }
+  },
+  "burn": {
+    "type": "origins:burn",
+    "interval": 20,
+    "burn_duration": 2,
+    "condition": {
+      "type": "origins:exposed_to_sun"
+    }
+  }
+}

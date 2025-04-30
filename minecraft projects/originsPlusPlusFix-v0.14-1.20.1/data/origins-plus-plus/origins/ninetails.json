@@ -1,0 +1,19 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:water_vulnerability",
+		"origins:fall_immunity",
+		"origins:slow_falling",
+		"origins:fire_immunity",
+		"origins:fragile",
+		"origins-plus-plus:ninetails/float",
+		"origins-plus-plus:ninetails/firebody",
+		"origins-plus-plus:ninetails/pocket",
+		"origins-plus-plus:ninetails/willow",
+		"origins-plus-plus:withered-fox/berry_sat",
+		"origins_env_deh:thirst_resistance"
+	],
+	"icon":"minecraft:blaze_powder",
+	"order":69,
+	"impact":2
+}

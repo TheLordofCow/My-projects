@@ -1,0 +1,28 @@
+{
+  "loading_priority": 10,
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effects": [
+    {
+      "effect": "minecraft:strength",
+      "show_particles": false,
+      "show_icon": false
+    },
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 1,
+      "show_particles": false,
+      "show_icon": false
+    }
+  ],
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:temperature",
+      "comparison": "<",
+      "compare_to": 0.15
+    }
+  }
+}

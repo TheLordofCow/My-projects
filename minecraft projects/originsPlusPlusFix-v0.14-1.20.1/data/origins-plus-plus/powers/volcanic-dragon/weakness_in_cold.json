@@ -1,0 +1,57 @@
+{
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"temperate":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:weakness",
+			"show_particles":false,
+			"show_icon":true
+		},
+		"condition":{
+			"type": "origins:and",
+			"conditions":[
+				{
+					"type":"origins:biome",
+					"condition":{
+						"type":"origins:temperature",
+						"comparison":"<=",
+						"compare_to":0.7
+					}
+				},
+				{
+					"type":"origins:biome",
+					"condition":{
+						"type":"origins:temperature",
+						"comparison":">",
+						"compare_to":0.3
+					}
+				}
+			]
+		}
+	},
+	"cold":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:weakness",
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":true
+		},
+		"condition":{
+			"type":"origins:biome",
+			"condition":{
+				"type":"origins:temperature",
+				"comparison":"<=",
+				"compare_to":0.3
+			}
+		}
+	},
+	"hidden":true
+}

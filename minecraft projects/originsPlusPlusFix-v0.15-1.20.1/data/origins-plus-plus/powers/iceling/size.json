@@ -1,0 +1,49 @@
+{
+  "loading_priority": 10,
+  "name": "power.origins-plus-plus.iceling/size.name",
+  "description": "You are small and immune to slowness, flying into walls, and thorns.",
+  "type": "origins:multiple",
+  "scale": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:iceling/size2"
+    },
+    "interval": 20
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "scale reset"
+    }
+  },
+  "effect_immunity": {
+    "type": "origins:effect_immunity",
+    "effects": ["minecraft:slowness"]
+  },
+  "damage_immunity": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "flyIntoWall"
+        },
+        {
+          "type": "origins:name",
+          "name": "cactus"
+        },
+        {
+          "type": "origins:name",
+          "name": "sweetBerryBush"
+        },
+        {
+          "type": "origins:name",
+          "name": "thorns"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "loading_priority": 10,
+  "name": "Melting",
+  "description": "You take 4 times more damage from fire.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:fire"
+  },
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 3
+  }
+}

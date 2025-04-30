@@ -1,0 +1,20 @@
+{
+	"loading_priority": 10,
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 3,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:blindness",
+		"show_icon": false,
+		"show_particles": false
+	},
+	"condition": {
+		"type": "origins:in_block",
+		"block_condition": {
+			"type": "origins:light_level",
+			"comparison": ">=",
+			"compare_to": 13
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:fall_immunity",
+    "origins-plus-plus:anomaly/blinding_light",
+    "origins-plus-plus:anomaly/eternity",
+    "origins-plus-plus:anomaly/moons_grace",
+    "origins-plus-plus:anomaly/night_vision",
+    "origins-plus-plus:anomaly/scorching_sun",
+    "origins-plus-plus:anomaly/strength",
+    "origins-plus-plus:anomaly/supernova",
+    "origins-plus-plus:anomaly/time_space_who_dis",
+    "origins-plus-plus:anomaly/unstable",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance"
+  ],
+  "icon": "minecraft:nether_star",
+  "order": 3,
+  "impact": 3
+}

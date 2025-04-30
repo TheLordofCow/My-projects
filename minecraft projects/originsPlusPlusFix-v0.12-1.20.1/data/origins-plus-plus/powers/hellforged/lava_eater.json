@@ -1,0 +1,53 @@
+{
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"name": "Lava Eater",
+	"description": "You cannot eat food as you were not designed to do so. Instead you are satiated by lava. You can also eat fire, but it's much less efficient.",
+	"saturation":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:saturation",
+			"show_particles":false,
+			"show_icon":false
+		},
+		"condition":{
+			"type":"origins:fluid_height",
+			"fluid":"minecraft:lava",
+			"comparison":">",
+			"compare_to":0
+		}
+	},
+	"food":{
+		"condition":{
+			"type":"origins:on_fire"
+		},
+		"type":"origins:action_over_time",
+		"interval":50,
+		"entity_action":{
+			"type":"origins:feed",
+			"food":1,
+			"saturation":1
+		}
+	},
+	"cannot_eat":{
+		"type":"origins:prevent_item_use",
+		"item_condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:food"
+				},
+				{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"tag":"origins:ignore_diet"
+					},
+					"inverted":true
+				}
+			]
+		}
+	}
+}

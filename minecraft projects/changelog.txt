@@ -1,0 +1,19 @@
+Added Werewolf.
+Withered Fox: Added Evil from Withered Skeletian, removed cooldown on Withered Hands.
+Lunar Path: Removed Cursed Being, removed hidden explosion damage immunity, added proper night vision, removed Pluck, removed Weakened By All's 3x damage from mobs (description says 2x).
+Lost Draconian: Made +2 sword damage apply for all attacks instead of only for vanilla swords, decreased falling speed.
+Kirin: Changed reach, speed, and step height back to normal values, decreased cooldown on Jump Boost, modified exhaustion to be a multiplier instead of taking away hunger at a set interval, given proper night vision, added Cat-Like Appearance.
+Kelperet: Increased underwater movement speed, greatly decreased cooldown on mobile conduit, given proper night vision, enabled permament self conduit power (it was disabled for some reason), removed armor restrictions.
+Jellyfish: Changed weakness 10 on hit to weakness 1, changed slowness 8 to slowness 2, changed dried kelp saturation from 65 to 8, given proper night vision, is now stealthy.
+Ignisian: Increased projectile damage to 70%.
+Iceling: Removed armor restrictions, removed odd condition that made Cold Buff only function in sunlight or in the Nether, fixed terrible Small description, removed hidden health regen changes, fire damage multiplier changed from 2x to 4x, removed redundant speed boost, is now a block tall, is now stealthy, replaced slowness debuff from Heat Exhaustion (they were immune) with an attribute debuff, decreased cooldown on Ice Shard.
+Ice Porcupine: fixed size issues, vanish now actually makes you invisible.
+Ice King: Removed odd condition that made At Home only function in sunlight or in the Nether, greatly decreased the range and heal rate from Best Buddies, reduced extremely high multipliers in Pyrophobia, player would take 4x now reduced to 2x damage from lightning, 3x now reduced to 2x damage to from lava, 6x now reduced to 3x damage from fire, and 3x now reduced to 2x damage from explosions which were all instant death, removed hidden combo attack power, buffed frostbreath.
+Half-Wither: added Evil from Withered Skeletian, changed entity group to undead, now gains saturation from kills, changed exhaustion multiplier from 2.02x to 2x, added Fire Immunity, added Hydrophobia, added Withered Hands from Withered Fox.
+Goolien: Removed fire damage increase (you will still burn to death unless you put yourself out) and fire will put itself out if you have fire resistance, removed health regen and hunger changes as they do not work with modded food, Absorbent debuff triggers in rain, added Carnivore.
+Zero Aizawa: Removed Very Nice, removed Weak Stature, added Featherweight and removed slow falling, replaced potentially permanent invulneribility with 20% damage reduction and reduced strength from 3 to 1, increased cooldown on Super Sane, removed Super Sane's ability to clear all effects, added fragile, reduced reach from 2.25x to 1.5x.
+Wyverian: Increased exhaustion.
+Golden Golem: Removed armor restrictions, changed Golem Strength to be based on relative health to function with max hp changes, disabled exhaustion and regen, health resource only depletes if the player take at least 2 damage, decreased regeneration rate, reduced hp to 5, added First Weakness.
+Gnoll: Bug fixes.
+Glacier: Reduced damage and slowed damage interval from Cold Blooded, changed Hot Sun to only affect the player when exposed to the sun, removed particles, removed Multi Snowballs because many of the abilities (multi snowballs cooldown and snowballs damage) don't function and I am unable to fix it.
+Drakonwither: removed Skulls, added Float, added Massive Flap, changed entity group to undead

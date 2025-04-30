@@ -1,0 +1,19 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:fragile",
+		"origins-plus-plus:calamitous-rogue/bad_trade",
+		"origins-plus-plus:calamitous-rogue/escape",
+		"origins-plus-plus:calamitous-rogue/dps",
+		"origins-plus-plus:calamitous-rogue/expert",
+		"origins-plus-plus:calamitous-rogue/infamous",
+		"origins-plus-plus:calamitous-rogue/smooth_talk",
+		"origins-plus-plus:calamitous-rogue/stealth",
+		"origins-plus-plus:calamitous-rogue/strike",
+		"origins-plus-plus:calamitous-rogue/traceless",
+		"origins-plus-plus:calamitous-rogue/thrill"
+	],
+	"icon":"minecraft:spyglass",
+	"order":14,
+	"impact":2
+}

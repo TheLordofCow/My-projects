@@ -1,0 +1,15 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:fall_immunity",
+    "origins:climbing",
+    "origins-plus-plus:mouse/a_mouses_lifespan",
+    "origins-plus-plus:mouse/mischievous2",
+    "origins-plus-plus:mouse/mob_ally",
+    "origins-plus-plus:mouse/mouse_sized",
+    "origins-plus-plus:mouse/ride"
+  ],
+  "icon": "minecraft:beef",
+  "order": 68,
+  "impact": 3
+}

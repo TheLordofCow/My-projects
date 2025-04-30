@@ -1,0 +1,8 @@
+{
+  "loading_priority": 10,
+  "replace": false,
+  "values": [
+    "minecraft:golden_pickaxe",
+    "minecraft:golden_shovel"
+  ]
+}

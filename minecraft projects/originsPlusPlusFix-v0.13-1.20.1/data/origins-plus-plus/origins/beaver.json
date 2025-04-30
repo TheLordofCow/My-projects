@@ -1,0 +1,18 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:more_exhaustion",
+		"origins:nine_lives",
+		"origins:vegetarian",
+		"origins-plus-plus:beaver/aquatic",
+		"origins-plus-plus:beaver/lazy",
+		"origins-plus-plus:beaver/logger",
+		"origins-plus-plus:beaver/rage",
+		"origins-plus-plus:beaver/razor_teeth",
+		"origins-plus-plus:beaver/storage",
+		"origins_env_deh:water_dweller"
+	],
+	"icon":"minecraft:brown_wool",
+	"order":6,
+	"impact":2
+}

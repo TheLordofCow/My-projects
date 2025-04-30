@@ -1,0 +1,66 @@
+{
+	"loading_priority": 10,
+	"name": "power.origins-plus-plus.sprinter/adrenaline_boost.name",
+	"description": "Grants Strength, Speed, and Regeneration, but causes you to become exhausted for a short time after.",
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":800,
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index":5
+	},
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:strength",
+							"duration": 400,
+							"show_particles": false
+						},
+						{
+							"effect": "minecraft:regeneration",
+							"duration": 400,
+							"show_particles": false
+						},
+						{
+							"effect": "minecraft:speed",
+							"duration": 400,
+							"amplifier": 3,
+							"show_particles": false
+						},
+						{
+							"effect": "minecraft:dolphins_grace",
+							"duration": 400,
+							"amplifier": 1,
+							"show_particles": false,
+							"show_icon": false
+						}
+
+					]
+			},
+			{
+				"type":"origins:delay",
+				"ticks":400,
+				"action":{
+					"type":"origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:slowness",
+							"duration": 400,
+							"amplifier": 2,
+							"show_particles": false
+						},
+						{
+							"effect": "minecraft:weakness",
+							"duration": 400,
+							"show_particles": false
+						}
+					]
+				}
+			}
+		]
+	}
+}

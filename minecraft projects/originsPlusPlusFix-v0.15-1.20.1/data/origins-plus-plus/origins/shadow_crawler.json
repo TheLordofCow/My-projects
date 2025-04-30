@@ -1,0 +1,20 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins-plus-plus:shadow-crawler/blinding_light",
+    "origins-plus-plus:shadow-crawler/dark_boost",
+    "origins-plus-plus:shadow-crawler/day_weakness",
+    "origins-plus-plus:shadow-crawler/disable_regen",
+    "origins-plus-plus:shadow-crawler/no_exhaustion",
+    "origins-plus-plus:shadow-crawler/regen",
+    "origins-plus-plus:shadow-crawler/shadow_warp",
+    "origins-plus-plus:shadow-crawler/shadowy_form",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance"
+  ],
+  "icon": "minecraft:structure_void",
+  "order": 83,
+  "impact": 3
+}

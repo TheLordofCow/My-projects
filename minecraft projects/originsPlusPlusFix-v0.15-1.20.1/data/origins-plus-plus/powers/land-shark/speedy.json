@@ -1,0 +1,8 @@
+{
+  "loading_priority": 10,
+  "type": "origins:modify_swim_speed",
+  "modifier": {
+    "value": 2,
+    "operation": "multiply_base"
+  }
+}

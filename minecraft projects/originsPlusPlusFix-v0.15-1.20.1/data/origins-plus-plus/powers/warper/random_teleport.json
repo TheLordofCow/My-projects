@@ -1,0 +1,14 @@
+{
+  "loading_priority": 10,
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:warper/random_teleport2"
+  },
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "hurt_by_water",
+    "inverted": true
+  },
+  "cooldown": 60
+}

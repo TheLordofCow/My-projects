@@ -1,0 +1,18 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:carnivore",
+    "origins-plus-plus:gnoll/fire_weakness",
+    "origins-plus-plus:gnoll/ugly",
+    "origins-plus-plus:spectre/ravenous",
+    "origins-plus-plus:gnoll/carrion_eater",
+    "origins-plus-plus:gnoll/carrion_saturation",
+    "origins-plus-plus:gnoll/large_build",
+    "origins-plus-plus:gnoll/large_health",
+    "origins-plus-plus:gnoll/night_vision",
+    "origins-plus-plus:gnoll/rage"
+  ],
+  "icon": "minecraft:rotten_flesh",
+  "order": 43,
+  "impact": 3
+}

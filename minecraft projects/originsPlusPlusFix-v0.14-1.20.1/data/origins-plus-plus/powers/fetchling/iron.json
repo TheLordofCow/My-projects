@@ -1,0 +1,216 @@
+{
+  "name": "End Conversion",
+  "description": "You can convert various End materials into other substances commonly found in other dimentions.",
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "mining_speed_boost": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "origins-plus-plus:end_blocks"
+    },
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 2
+    }
+  },
+  "iron": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "id": "origins-plus-plus:iron_conversion",
+      "ingredients": [
+        {
+          "item": "betterend:thallasium_ingot"
+        },
+        {
+          "item": "betterend:thallasium_ingot"
+        }
+      ],
+      "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 2
+      }
+    }
+  },
+  "cobble": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "id": "origins-plus-plus:stone_conversion",
+      "ingredients": [
+        {
+          "item": "minecraft:end_stone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:cobblestone",
+        "count": 1
+      }
+    }
+  },
+  "lava": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "id": "origins-plus-plus:coal_to_lava",
+
+      "ingredients": [
+        [
+          {
+            "item": "minecraft:coal_block"
+          },
+          {
+            "item": "betterend:charcoal_block"
+          }
+        ],
+        [
+          {
+            "item": "minecraft:coal_block"
+          },
+          {
+            "item": "betterend:charcoal_block"
+          }
+        ],
+        {
+          "item": "minecraft:bucket"
+        }
+      ],
+      "result": {
+        "item": "minecraft:lava_bucket",
+        "count": 1
+      }
+    }
+  },
+  "netherite": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "id": "origins-plus-plus:ender_to_netherite",
+
+      "ingredients": [
+        {
+          "item": "betterend:ender_shard"
+        },
+        {
+          "item": "betterend:ender_shard"
+        }
+      ],
+      "result": {
+        "item": "minecraft:netherite_scrap",
+        "count": 1
+      }
+    }
+  },
+  "brick_conversion": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "id": "origins-plus-plus:brick_conversion",
+
+      "ingredients": [
+        {
+          "item": "minecraft:end_stone_bricks"
+        }
+      ],
+      "result": {
+        "item": "minecraft:nether_bricks",
+        "count": 1
+      }
+    }
+  },
+  "pearlfrag_to_lapis": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "id": "origins-plus-plus:pearlfrag_to_lapis",
+
+      "ingredients": [
+        {
+          "item": "forbidden_arcanus:ender_pearl_fragment"
+        }
+      ],
+      "result": {
+        "item": "minecraft:lapis_lazuli",
+        "count": 1
+      }
+    }
+  },
+  "smithing_template_conversion": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "id": "origins-plus-plus:smithing_template_conversion",
+
+      "ingredients": [
+        [
+          {
+            "item": "betterend:aeternium_upgrade_smithing_template"
+          },
+          {
+            "item": "betterend:plate_upgrade_smithing_template"
+          },
+          {
+            "item": "betterend:netherite_upgrade_smithing_template"
+          }
+        ],
+        [
+          {
+            "item": "betterend:aeternium_upgrade_smithing_template"
+          },
+          {
+            "item": "betterend:plate_upgrade_smithing_template"
+          },
+          {
+            "item": "betterend:netherite_upgrade_smithing_template"
+          }
+        ],
+        [
+          {
+            "item": "betterend:aeternium_upgrade_smithing_template"
+          },
+          {
+            "item": "betterend:plate_upgrade_smithing_template"
+          },
+          {
+            "item": "betterend:netherite_upgrade_smithing_template"
+          }
+        ],
+        [
+          {
+            "item": "betterend:aeternium_upgrade_smithing_template"
+          },
+          {
+            "item": "betterend:plate_upgrade_smithing_template"
+          },
+          {
+            "item": "betterend:netherite_upgrade_smithing_template"
+          }
+        ]
+      ],
+      "result": {
+        "item": "minecraft:netherite_upgrade_smithing_template",
+        "count": 1
+      }
+    }
+  },
+  "netherrack": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shapeless",
+      "id": "origins-plus-plus:stone_conversion",
+      "ingredients": [
+        {
+          "item": "minecraft:end_stone"
+        },
+        {
+          "item": "minecraft:end_stone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:netherrack",
+        "count": 2
+      }
+    }
+  }
+}

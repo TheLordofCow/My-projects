@@ -1,0 +1,12 @@
+{
+	"loading_priority": 10,
+	"type":"origins:attribute",
+	"modifiers":[
+		{
+			"attribute":"minecraft:generic.max_health",
+			"operation":"addition",
+			"value":10
+		}
+	],
+	"update_health":true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Glow",
+  "description": "You can toggle seeing entities through blocks.",
+  "type": "origins:toggle",
+  "key": "key.saveToolbarActivator",
+  "active_by_default": true
+}

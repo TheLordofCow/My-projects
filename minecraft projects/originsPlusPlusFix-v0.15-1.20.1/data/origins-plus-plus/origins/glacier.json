@@ -1,0 +1,29 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins-plus-plus:glacier/chilly_person",
+    "origins-plus-plus:glacier/cold_blooded",
+    "origins-plus-plus:glacier/cold_feet",
+    "origins-plus-plus:glacier/cold_nap",
+    "origins-plus-plus:glacier/cold_protection",
+    "origins-plus-plus:glacier/cold_skin",
+    "origins-plus-plus:glacier/fire_damage",
+    "origins-plus-plus:glacier/freezing_touch",
+    "origins-plus-plus:glacier/harvest_snow_layer",
+    "origins-plus-plus:glacier/hot_sun",
+    "origins-plus-plus:glacier/icy_breath",
+    "origins-plus-plus:glacier/icy_defence",
+    "origins-plus-plus:glacier/icy_spawn",
+    "origins-plus-plus:glacier/night_person",
+    "origins-plus-plus:glacier/overheating",
+    "origins-plus-plus:glacier/snow_damper",
+    "origins-plus-plus:glacier/snowy_sprinter",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance"
+  ],
+  "icon": "minecraft:snow",
+  "order": 42,
+  "impact": 3
+}

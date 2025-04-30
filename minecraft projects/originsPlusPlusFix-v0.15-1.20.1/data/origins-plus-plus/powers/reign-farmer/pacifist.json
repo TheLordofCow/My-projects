@@ -1,0 +1,19 @@
+{
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "weaker_melee": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -0.3,
+      "operation": "multiply_total"
+    }
+  },
+  "weaker_ranged": {
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.3
+    }
+  }
+}

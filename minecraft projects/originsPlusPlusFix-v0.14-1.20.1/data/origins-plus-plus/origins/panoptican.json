@@ -1,0 +1,19 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:slow_falling",
+		"origins:extra_reach",
+		"origins-plus-plus:panoptican/air_speed_boost",
+		"origins-plus-plus:panoptican/bystander",
+		"origins-plus-plus:panoptican/entity_glow",
+		"origins-plus-plus:panoptican/fire",
+		"origins-plus-plus:panoptican/float2",
+		"origins-plus-plus:panoptican/fragile",
+		"origins-plus-plus:panoptican/night_vision",
+		"origins-plus-plus:panoptican/raycast2",
+		"origins-plus-plus:panoptican/toggle2"
+	],
+	"icon":"minecraft:ender_eye",
+	"order":70,
+	"impact":3
+}

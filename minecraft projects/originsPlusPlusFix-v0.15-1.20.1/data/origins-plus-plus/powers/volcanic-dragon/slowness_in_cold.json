@@ -1,0 +1,78 @@
+{
+  "loading_priority": 10,
+  "name": "Cold Vulnerability",
+  "description": "You can't stand temperatures colder than jungles and swamps, growing slower and weaker the colder it is. The coldest biomes can leave you a frozen husk.",
+  "type": "origins:multiple",
+  "temperate": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+      "effect": "minecraft:slowness",
+      "show_particles": false,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0.7
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": ">",
+            "compare_to": 0.3
+          }
+        }
+      ]
+    }
+  },
+  "cold": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+      "effect": "minecraft:slowness",
+      "amplifier": 1,
+      "show_particles": false,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "origins:biome",
+      "condition": {
+        "type": "origins:temperature",
+        "comparison": "<=",
+        "compare_to": 0.3
+      }
+    }
+  },
+  "freezing": {
+    "type": "origins:freeze",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0
+          }
+        },
+        {
+          "type": "origins:on_fire",
+          "inverted": true
+        }
+      ]
+    }
+  }
+}

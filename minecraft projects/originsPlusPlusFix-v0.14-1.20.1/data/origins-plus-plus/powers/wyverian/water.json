@@ -1,0 +1,64 @@
+{
+	"loading_priority": 10,
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":100,
+	"effects":[
+		{
+			"effect":"minecraft:weakness",
+			"show_particles":false,
+			"show_icon":false,
+			"amplifier": 1
+		},
+		{
+			"effect":"minecraft:slowness",
+			"show_particles":false,
+			"show_icon":false,
+			"amplifier": 1
+		}
+	],
+	"condition":{
+		"type":"origins:or",
+		"conditions":[
+			{
+				"type":"origins:fluid_height",
+				"fluid":"minecraft:water",
+				"comparison":">",
+				"compare_to":0
+			},
+			{
+				"type":"origins:in_rain"
+			},
+			{
+				"type":"origins:in_snow"
+			},
+			{
+				"type":"origins:on_block",
+				"block":"minecraft:snow_block"
+			},
+			{
+				"type":"origins:on_block",
+				"block":"minecraft:ice"
+			},
+			{
+				"type":"origins:on_block",
+				"block":"minecraft:packed_ice"
+			},
+			{
+				"type":"origins:in_block",
+				"block_condition": {
+					"type":"origins:block",
+					"block":"minecraft:powder_snow"
+				}
+			},
+			{
+				"type":"origins:in_block",
+				"block_condition": {
+					"type":"origins:block",
+					"block":"minecraft:snow"
+				}
+			}
+		]
+	}
+}

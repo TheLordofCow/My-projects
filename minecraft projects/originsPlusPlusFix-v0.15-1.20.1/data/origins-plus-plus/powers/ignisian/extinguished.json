@@ -1,0 +1,34 @@
+{
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "fly": {
+    "type": "origins:modify_air_speed",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": -0.5
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": "!=",
+      "compare_to": 0
+    }
+  },
+  "water": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": -0.5
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": "!=",
+      "compare_to": 0
+    }
+  },
+  "ignoring": {
+    "type": "origins:ignore_water"
+  }
+}

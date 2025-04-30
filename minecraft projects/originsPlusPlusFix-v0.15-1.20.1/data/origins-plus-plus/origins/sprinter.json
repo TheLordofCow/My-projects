@@ -1,0 +1,15 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:carnivore",
+    "origins-plus-plus:sprinter/adrenaline_boost2",
+    "origins-plus-plus:sprinter/burns",
+    "origins-plus-plus:sprinter/light_feet",
+    "origins-plus-plus:sprinter/nimble",
+    "origins-plus-plus:sprinter/skinny",
+    "origins-plus-plus:shadow/night_vision"
+  ],
+  "icon": "minecraft:leather_boots",
+  "order": 90,
+  "impact": 2
+}

@@ -1,0 +1,16 @@
+{
+  "loading_priority": 10,
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effect": {
+    "effect": "minecraft:weakness",
+    "show_icon": false,
+    "show_particles": false
+  },
+
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  }
+}

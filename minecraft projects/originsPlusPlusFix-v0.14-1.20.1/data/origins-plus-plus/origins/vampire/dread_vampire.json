@@ -1,0 +1,20 @@
+{
+	"name": "Dread Vampire",
+	"description": "You are a Dread Vampire, a more powerful vampire that can fly, but is more vulnerable to fire and the sun.",
+	"loading_priority": 10,
+	"powers":[
+		"origins-plus-plus:vampire/evil",
+		"origins-plus-plus:vampire/night_vision",
+		"origins-plus-plus:vampire/undead",
+		"origins-plus-plus:vampire/vampiric_strength",
+		"origins-plus-plus:vampire/sun_weakness",
+		"origins-plus-plus:vampire/blood_drinker",
+		"origins-plus-plus:vampire/cake",
+		"origins-plus-plus:vampire/wings",
+		"origins-plus-plus:vampire/fire_weakness",
+		"origins_env_deh:thirst_resistance"
+	],
+	"icon":"minecraft:red_stained_glass_pane",
+	"unchoosable": true,
+	"impact":3
+}

@@ -1,0 +1,21 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins-plus-plus:lunar-path/chains_of_death",
+    "origins-plus-plus:lunar-path/exiled",
+    "origins-plus-plus:lunar-path/from_beyond_the_grave",
+    "origins-plus-plus:lunar-path/great_deal",
+    "origins-plus-plus:lunar-path/night_boost",
+    "origins-plus-plus:lunar-path/no_daylight_water",
+    "origins-plus-plus:lunar-path/summon_fangs",
+    "origins-plus-plus:lunar-path/sunlight_terror",
+    "origins-plus-plus:lunar-path/wither_immunity",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance"
+  ],
+  "icon": "minecraft:sea_lantern",
+  "order": 60,
+  "impact": 3
+}
