@@ -1,0 +1,126 @@
+{
+	"name": "power.origins-plus-plus.voidling/void_energy.name",
+	"description": "power.origins-plus-plus.voidling/void_energy.description",
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"charge":{
+		"type":"origins:resource",
+		"min":0,
+		"max":3000,
+		"hud_render":{
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index":7
+		}
+	},
+	"charge_up":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"resource":"*:*_charge",
+					"change":10
+				}
+			]
+		},
+		"interval":10,
+		"condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:in_block",
+					"block_condition":{
+						"type":"origins:height",
+						"comparison":"<=",
+						"compare_to":64
+					}
+				},
+				{
+					"type": "origins:dimension",
+					"dimension": "minecraft:the_end"
+				}
+			]
+		}
+	},
+	"charge_up2":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"resource":"*:*_charge",
+					"change":10
+				}
+			]
+		},
+		"interval":5,
+		"condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:in_block",
+					"block_condition":{
+						"type":"origins:height",
+						"comparison":"<=",
+						"compare_to":0
+					}
+				},
+				{
+					"type": "origins:dimension",
+					"dimension": "minecraft:the_end"
+				}
+			]
+		}
+	},
+	"charge_up3":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"resource":"*:*_charge",
+					"change":25
+				}
+			]
+		},
+		"interval":5,
+		"condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:in_block",
+					"block_condition":{
+						"type":"origins:height",
+						"comparison":"<=",
+						"compare_to":-50
+					}
+				},
+				{
+					"type": "origins:dimension",
+					"dimension": "minecraft:the_end"
+				}
+			]
+		}
+	},
+	"reset_on_death":{
+		"type":"origins:action_on_callback",
+		"entity_action_chosen":{
+			"type":"origins:change_resource",
+			"resource":"*:*_charge",
+			"change":0
+		},
+		"entity_action_lost":{
+			"type":"origins:change_resource",
+			"resource":"*:*_charge",
+			"change":-3000
+		},
+		"entity_action_respawned":{
+			"type":"origins:change_resource",
+			"resource":"*:*_charge",
+			"change":-3000
+		}
+	}
+}

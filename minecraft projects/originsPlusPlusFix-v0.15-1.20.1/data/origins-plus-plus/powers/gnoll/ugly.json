@@ -1,0 +1,29 @@
+{
+  "name": "Ugly",
+  "description": "You are ugly and villagers are terrified of you. They will refuse to trade with you and iron golems think you are a monster.",
+  "type": "origins:multiple",
+  "high_prices": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:lunar-path/high_prices"
+    }
+  },
+  "iron_golem": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:lunar-path/iron_golem"
+    }
+  },
+  "iron_golem_no": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:lunar-path/iron_golem_no"
+    }
+  }
+}

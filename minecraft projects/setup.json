@@ -1,0 +1,68 @@
+{
+    "type": "origins:multiple",
+    "uundeadnow": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team add Undead"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Undead @s"
+                }
+            ]
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "team leave @s"
+        }
+    },
+    "undeadundeadnow": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team leave @e[tag=hateunow]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Undead @e[type=minecraft:zombie,tag=!hateunow]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Undead @e[type=minecraft:skeleton,tag=!hateunow]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Undead @e[type=minecraft:husk,tag=!hateunow]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Undead @e[type=minecraft:drowned,tag=!hateunow]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Undead @e[type=minecraft:stray,tag=!hateunow]"
+                }
+            ]
+        },
+        "interval": 20
+    },
+    "umesswithundeadugetundead": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "tag @s[team=Undead,type=!minecraft:player] add hateunow"
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "hidden": true
+}

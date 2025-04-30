@@ -1,0 +1,9 @@
+{
+	"loading_priority": 10,
+	"type":"origins:effect_immunity",
+	"effects":[
+		"minecraft:poison",
+		"minecraft:wither",
+		"minecraft:hunger"
+	]
+}

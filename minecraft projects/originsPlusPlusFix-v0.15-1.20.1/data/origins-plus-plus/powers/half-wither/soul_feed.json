@@ -1,0 +1,10 @@
+{
+	"loading_priority": 10,
+	"type":"origins:self_action_on_kill",
+	"entity_action":{
+		"type":"origins:feed",
+		"food":6,
+		"saturation":0.85
+	},
+	"cooldown":0
+}

@@ -1,0 +1,27 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:water_vulnerability",
+    "origins:carnivore",
+    "origins:fragile",
+    "origins-plus-plus:ice-porcupine/cold_adapted_cold_biomes",
+    "origins-plus-plus:ice-porcupine/cold_adapted_hot_biomes",
+    "origins-plus-plus:ice-porcupine/cold_aura",
+    "origins-plus-plus:ice-porcupine/ice_body_fire_damage",
+    "origins-plus-plus:ice-porcupine/ice_claws",
+    "origins-plus-plus:ice-porcupine/ice_spikes",
+    "origins-plus-plus:ice-porcupine/icy_spawn",
+    "origins-plus-plus:ice-porcupine/multi_arrows",
+    "origins-plus-plus:ice-porcupine/small_size",
+    "origins-plus-plus:ice-porcupine/vanish",
+    "origins-plus-plus:ice-king/freeze_immune",
+    "origins_env_deh:cold_resistance",
+    "origins_env_deh:thirst_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance"
+  ],
+  "icon": "minecraft:packed_ice",
+  "order": 50,
+  "impact": 3
+}

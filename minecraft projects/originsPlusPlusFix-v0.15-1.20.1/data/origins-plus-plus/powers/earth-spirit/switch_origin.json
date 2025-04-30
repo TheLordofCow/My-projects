@@ -1,0 +1,9 @@
+{
+  "loading_priority": 10,
+  "type": "origins:active_self",
+  "key": "key.origins.secondary_active",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:earth-spirit/upgrade"
+  }
+}

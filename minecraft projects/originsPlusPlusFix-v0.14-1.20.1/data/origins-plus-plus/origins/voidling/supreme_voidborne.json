@@ -1,0 +1,27 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:no_shield",
+		"origins:elytra",
+		"origins-plus-plus:voidling/brittle_bones2",
+		"origins-plus-plus:voidling/dive_attack",
+		"origins-plus-plus:voidling/large_appetite2",
+		"origins-plus-plus:voidling/low_health",
+		"origins-plus-plus:voidling/supreme_shield2",
+		"origins-plus-plus:voidling/supreme_shield_toggle",
+		"origins-plus-plus:voidling/supreme_state2",
+		"origins-plus-plus:voidling/void_energy2",
+		"origins-plus-plus:voidling/void_father2",
+		"origins-plus-plus:voidling/voidborne_form",
+		"origins-plus-plus:voidling/shadow_boost2",
+		"origins-plus-plus:wyverian/wind",
+		"origins_env_deh:cold_resistance",
+        "thermoo-patches:cold_immune",
+        "origins_survive:cold_resistance",
+        "origins_toughasnails:cold_resistance"
+		
+	],
+	"icon":"minecraft:structure_void",
+	"impact":3,
+	"unchoosable":true
+}

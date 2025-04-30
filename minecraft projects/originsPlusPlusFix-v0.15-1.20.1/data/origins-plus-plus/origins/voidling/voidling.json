@@ -1,0 +1,28 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:no_shield",
+    "origins-plus-plus:voidling/brittle_bones2",
+    "origins-plus-plus:voidling/light_weakness2",
+    "origins-plus-plus:voidling/shadow_boost2",
+    "origins-plus-plus:voidling/void_child2",
+    "origins-plus-plus:voidling/voidling_form",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance"
+  ],
+  "upgrades": [
+    {
+      "condition": "adventure/fall_from_world_height",
+      "origin": "origins-plus-plus:voidling/voidborne"
+    },
+    {
+      "condition": "minecraft:end/root",
+      "origin": "origins-plus-plus:voidling/supreme_voidborne"
+    }
+  ],
+  "icon": "minecraft:obsidian",
+  "order": 113,
+  "impact": 3
+}

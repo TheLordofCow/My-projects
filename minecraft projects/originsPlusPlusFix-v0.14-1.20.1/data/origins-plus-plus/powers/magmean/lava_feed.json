@@ -1,0 +1,16 @@
+{
+  "loading_priority": 10,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:feed",
+    "food": 2,
+    "saturation": 0.5
+  },
+  "interval": 30,
+  "condition": {
+    "type": "origins:fluid_height",
+        "compare_to": 0.0,
+        "comparison": ">",
+        "fluid": "minecraft:lava"
+  }
+}

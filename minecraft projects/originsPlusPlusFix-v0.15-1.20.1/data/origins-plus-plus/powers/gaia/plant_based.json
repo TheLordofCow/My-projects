@@ -1,0 +1,21 @@
+{
+  "loading_priority": 10,
+  "name": "Plant Based",
+  "description": "As a plant, you cannot eat food.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

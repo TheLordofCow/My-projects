@@ -1,0 +1,19 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:water_vulnerability",
+		"origins:fragile",
+		"origins-plus-plus:spirit-ram/color",
+		"origins-plus-plus:spirit-ram/translucent",
+		"origins-plus-plus:spirit-ram/high_sleep",
+		"origins-plus-plus:spirit-ram/horn_pockets",
+		"origins-plus-plus:spirit-ram/mist_protection",
+		"origins-plus-plus:spirit-ram/mist_protection_trigger",
+		"origins-plus-plus:spirit-ram/no_water",
+		"origins-plus-plus:spirit-ram/phase",
+		"origins_env_deh:thirst_resistance"
+	],
+	"icon":"minecraft:white_wool",
+	"order":88,
+	"impact":3
+}

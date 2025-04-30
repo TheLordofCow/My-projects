@@ -1,0 +1,13 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins-plus-plus:wanderer/bag",
+		"origins-plus-plus:wanderer/cross",
+		"origins-plus-plus:wanderer/leather",
+		"origins-plus-plus:wanderer/night",
+		"origins-plus-plus:wanderer/trade"
+	],
+	"icon":"minecraft:soul_lantern",
+	"order":100,
+	"impact":1
+}

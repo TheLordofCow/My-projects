@@ -1,0 +1,22 @@
+{
+  "loading_priority": 10,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:set_on_fire",
+    "duration": 3
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:on_fire"
+      },
+	  {
+		"type": "origins:status_effect",
+		"effect": "minecraft:fire_resistance",
+		"inverted": true
+	  }
+    ]
+  }
+}

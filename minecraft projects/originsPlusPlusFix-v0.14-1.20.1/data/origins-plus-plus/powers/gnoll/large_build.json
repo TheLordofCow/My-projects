@@ -1,0 +1,29 @@
+{
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"set_height":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:gnoll/size"
+		},
+		"interval":20,
+		"condition":{
+			"type":"origins:constant",
+			"value":true
+		}
+	},
+	"regeneration":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:heal",
+			"amount":1
+		},
+		"interval":25,
+		"condition":{
+			"type": "apoli:food_level",
+    		"comparison": ">",
+    		"compare_to": 6
+		}
+	}
+}

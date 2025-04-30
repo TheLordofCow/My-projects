@@ -1,0 +1,21 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins-plus-plus:shadow/behind_you",
+    "origins-plus-plus:shadow/cloud",
+    "origins-plus-plus:shadow/fragile",
+    "origins-plus-plus:shadow/hunger",
+    "origins-plus-plus:shadow/invisibility",
+    "origins-plus-plus:shadow/night_vision",
+    "origins-plus-plus:shadow/no_food",
+    "origins-plus-plus:shadow/sun_weakness",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance",
+    "origins_env_deh:thirst_resistance"
+  ],
+  "icon": "minecraft:black_concrete",
+  "order": 82,
+  "impact": 3
+}

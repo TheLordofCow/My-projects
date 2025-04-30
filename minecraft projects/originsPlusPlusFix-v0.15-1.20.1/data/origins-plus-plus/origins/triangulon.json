@@ -1,0 +1,18 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:ender_particles",
+    "origins:fall_immunity",
+    "origins-plus-plus:triangulon/brittle",
+    "origins-plus-plus:triangulon/bowmaster",
+    "origins-plus-plus:triangulon/gravity_manipulator",
+    "origins-plus-plus:triangulon/lava_walk",
+    "origins-plus-plus:triangulon/materialize",
+    "origins-plus-plus:triangulon/no_melee",
+    "origins-plus-plus:triangulon/shulker",
+    "origins-plus-plus:triangulon/walk"
+  ],
+  "icon": "minecraft:emerald_block",
+  "order": 95,
+  "impact": 2
+}

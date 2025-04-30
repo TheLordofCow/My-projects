@@ -1,0 +1,15 @@
+{
+	"type":"origins:action_over_time",
+	"falling_action":{
+		"type":"origins:apply_effect",
+		"effect":{
+			"effect":"minecraft:slow_falling",
+			"duration": 40
+		}
+	},
+	"condition":{
+		"type":"origins:ability",
+		"ability":"minecraft:mayfly"
+	},
+	"hidden":true
+}

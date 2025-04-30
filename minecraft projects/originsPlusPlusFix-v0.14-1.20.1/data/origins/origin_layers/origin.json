@@ -1,0 +1,9 @@
+{
+	"allow_random":false,
+	"origins":[
+		"origins-plus-plus:juggernaut",
+		"origins-plus-plus:nemesis",
+		"origins-plus-plus:fetchling",
+		"origins-plus-plus:vampire/vampire"
+	]
+}

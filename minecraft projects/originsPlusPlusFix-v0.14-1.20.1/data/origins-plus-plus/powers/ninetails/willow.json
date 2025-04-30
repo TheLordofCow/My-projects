@@ -1,0 +1,22 @@
+{
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "fireball": {
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 100,
+    "hud_render": {
+      "bar_index": 7
+    },
+    "key": "key.saveToolbarActivator"
+  },
+  "sound": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:item.firecharge.use"
+    },
+	"key": "key.saveToolbarActivator",
+	"cooldown": 100
+  }
+}

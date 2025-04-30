@@ -1,0 +1,11 @@
+{
+	"name":"Reckless",
+	"description":"Due to your reckless nature, armor is only half as effective",
+	"loading_priority": 10,
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.armor",
+		"operation":"multiply_base",
+		"value":-0.5
+	}
+}

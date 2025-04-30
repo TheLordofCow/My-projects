@@ -1,0 +1,18 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:slow_falling",
+    "origins-plus-plus:warper/ender_chest",
+    "origins-plus-plus:warper/food",
+    "origins-plus-plus:warper/passive_endermen",
+    "origins-plus-plus:warper/portality",
+    "origins-plus-plus:warper/random_teleport",
+    "origins-plus-plus:warper/teleport",
+    "origins-plus-plus:warper/weak",
+    "origins-plus-plus:warper/end_spawn",
+    "origins-plus-plus:fetchling/iron"
+  ],
+  "icon": "minecraft:end_portal_frame",
+  "order": 105,
+  "impact": 3
+}

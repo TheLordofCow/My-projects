@@ -1,0 +1,8 @@
+{
+  "name": "Wings",
+  "description": "You have Gray Wings that you stole from the dragon you killed.",
+  "type": "medievalorigins:icarus_wings",
+  "wings_type": {
+    "item": "icarus:gray_dragon_wings"
+  }
+}

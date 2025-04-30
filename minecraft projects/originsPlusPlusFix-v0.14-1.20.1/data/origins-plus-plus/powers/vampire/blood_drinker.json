@@ -1,0 +1,49 @@
+{
+  "name": "Blood Drinker",
+  "description": "You must drink the blood of the living to survive, you cannot consume most food, but you don't have to feed as often.",
+  "type": "origins:multiple",
+  "no_food": {
+	"type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "drink":{
+	"type": "origins:self_action_on_hit",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:heal",
+				"amount": 2
+			},
+			{
+				"type": "origins:feed",
+				"food": 2,
+				"saturation": 0.8
+			}
+		]
+	},
+	"target_condition": {
+		"type": "origins:entity_group",
+		"group": "undead",
+		"inverted": true
+	}
+  },
+  "exhaustion":{
+	"type": "origins:modify_exhaustion",
+	"multiplier": -0.5
+  }
+}

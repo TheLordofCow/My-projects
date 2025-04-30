@@ -1,0 +1,19 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:carnivore",
+		"origins:elytra",
+		"origins:no_shield",
+		"origins-plus-plus:wyverian/claws",
+		"origins-plus-plus:wyverian/night_vision",
+		"origins-plus-plus:wyverian/poison_immune",
+		"origins-plus-plus:wyverian/projectile",
+		"origins-plus-plus:wyverian/size",
+		"origins-plus-plus:wyverian/water",
+		"origins-plus-plus:wyverian/wind"
+	],
+	"icon":"minecraft:ender_eye",
+	"order":110,
+	"impact":3
+}
+

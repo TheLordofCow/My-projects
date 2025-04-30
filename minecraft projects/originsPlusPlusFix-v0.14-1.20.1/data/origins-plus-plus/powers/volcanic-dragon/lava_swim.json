@@ -1,0 +1,37 @@
+{
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"hidden":true,
+	"swim_speed":{
+		"type":"origins:modify_swim_speed",
+		"modifier":{
+			"value":0.025,
+			"operation":"addition"
+		}
+	},
+	"lava_speed":{
+		"type": "origins:modify_lava_speed",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.4
+		}
+	},
+	"lava_swim":{
+		"type":"origins:swimming",
+		"condition":{
+			"type":"origins:fluid_height",
+			"fluid":"minecraft:lava",
+			"comparison":">",
+			"compare_to":0
+		}
+	},
+	"no_elytra":{
+		"type":"origins:prevent_elyta_flight",
+		"condition":{
+			"type":"origins:fluid_height",
+			"fluid":"minecraft:lava",
+			"comparison":">",
+			"compare_to":0
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"loading_priority": 10,
+	"powers":[
+		"origins:aqua_affinity",
+		"origins:fall_immunity",
+		"origins:fragile",
+		"origins-plus-plus:frog/burn",
+		"origins-plus-plus:frog/dash",
+		"origins-plus-plus:frog/burn_bar",
+		"origins-plus-plus:frog/jump",
+		"origins-plus-plus:frog/poison",
+		"origins-plus-plus:frog/swim",
+		"origins-plus-plus:frog/water_breathing"
+	],
+	"icon":"minecraft:lily_pad",
+	"order":38,
+	"impact":3
+}

@@ -1,0 +1,26 @@
+{
+	"loading_priority": 10,
+	"hidden":true,
+	"type": "origins:multiple",
+	"food":{
+		"type":"origins:modify_food",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"tag":"origins-plus-plus:raw_meat"
+			}
+		},
+		"food_modifier":{
+			"operation":"addition",
+			"value":2
+		},
+		"saturation_modifier":{
+			"operation":"addition",
+			"value":1
+		}
+	},
+	"immune":{
+		"type": "origins:effect_immunity",
+		"effect": "minecraft:hunger"
+	}
+}

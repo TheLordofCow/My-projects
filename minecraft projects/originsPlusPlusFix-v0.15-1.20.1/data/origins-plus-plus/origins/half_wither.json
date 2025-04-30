@@ -1,0 +1,26 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:nether_spawn",
+    "origins:fire_immunity",
+    "origins:carnivore",
+    "origins:water_vulnerability",
+    "origins-plus-plus:half-wither/exhaust",
+    "origins-plus-plus:half-wither/evil",
+    "origins-plus-plus:half-wither/immunity",
+    "origins-plus-plus:half-wither/soul_feed",
+    "origins-plus-plus:half-wither/wither_skull",
+    "origins-plus-plus:half-wither/undead_body",
+    "origins-plus-plus:withered-fox/withered_hands",
+    "origins-plus-plus:volcanic-dragon/lava_swim",
+    "origins-plus-plus:volcanic-dragon/lava_vision",
+    "origins_env_deh:heat_resistance",
+    "thermoo-patches:heat_immune",
+    "origins_survive:heat_resistance",
+    "origins_toughasnails:heat_resistance",
+    "origins_survive:lava_drinker"
+  ],
+  "icon": "minecraft:wither_skeleton_skull",
+  "order": 46,
+  "impact": 3
+}

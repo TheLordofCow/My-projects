@@ -1,0 +1,56 @@
+{
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "invisibility": {
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "render_outline": false,
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:light_level",
+        "comparison": "<=",
+        "compare_to": 9
+      }
+    }
+  },
+  "stealth": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:shadow/stealth"
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:light_level",
+        "comparison": "<=",
+        "compare_to": 9
+      }
+    }
+  },
+  "remove_stealth": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "scale reset"
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:light_level",
+        "comparison": ">",
+        "compare_to": 9
+      }
+    }
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "scale reset"
+    }
+  }
+}

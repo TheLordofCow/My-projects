@@ -1,0 +1,29 @@
+{
+  "name": "Vampire",
+  "description": "You are a vampire, an undead creature that must drink blood to survive and burns in the sun. (upgrade by slaying any stage 3 Ice and Fire dragon or the ender dragon.)",
+  "loading_priority": 10,
+  "powers": [
+    "origins-plus-plus:vampire/evil",
+    "origins-plus-plus:vampire/night_vision",
+    "origins-plus-plus:vampire/undead",
+    "origins-plus-plus:vampire/vampiric_strength",
+    "origins-plus-plus:vampire/sun_weakness",
+    "origins-plus-plus:vampire/blood_drinker",
+    "origins-plus-plus:vampire/cake",
+    "origins_env_deh:thirst_resistance",
+    "origins-plus-plus:vampire/aqua_affinity"
+  ],
+  "upgrades": [
+    {
+      "condition": "minecraft:end/kill_dragon",
+      "origin": "origins-plus-plus:vampire/dread_vampire"
+    },
+    {
+      "condition": "iceandfire:iceandfire/kill_if_dragon",
+      "origin": "origins-plus-plus:vampire/dread_vampire"
+    }
+  ],
+  "icon": "minecraft:pointed_dripstone",
+  "order": 118,
+  "impact": 3
+}

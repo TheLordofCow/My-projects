@@ -1,0 +1,24 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:fall_immunity",
+    "origins:no_shield",
+    "origins-plus-plus:fetchling/shadow_boost",
+    "origins-plus-plus:fetchling/end_spawn",
+    "origins-plus-plus:fetchling/iron",
+    "origins-plus-plus:fetchling/sun_weakness",
+    "origins-plus-plus:fetchling/fire_weakness",
+    "origins-plus-plus:fetchling/void",
+    "origins-plus-plus:fetchling/wings",
+    "origins-plus-plus:fetchling/escape",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance"
+  ],
+  "icon": "minecraft:ender_eye",
+  "order": 117,
+  "impact": 3,
+  "name": "Fetchling",
+  "description": "(high difficulty) You are a Fetchling, a creature that was given life by The End. You are resistant to the void and are stronger in the dark, but you are vulnerable to light. (Requires MMC for full functionality)"
+}

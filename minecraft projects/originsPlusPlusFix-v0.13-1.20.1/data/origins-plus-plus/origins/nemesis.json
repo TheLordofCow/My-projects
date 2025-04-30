@@ -1,0 +1,21 @@
+{
+	"name":"Nemesis",
+	"description":"You were born with extreme power, but the world wants you dead and actively tries to kill you at every turn.",
+	"loading_priority": 10,
+	"powers":[
+		"origins-plus-plus:nemesis/greater_water_vulnerability",
+		"origins-plus-plus:nemesis/sun_weakness",
+		"origins-plus-plus:nemesis/no_water",
+		"origins-plus-plus:nemesis/phase",
+		"origins-plus-plus:nemesis/fire_weakness",
+		"origins-plus-plus:nemesis/cold_vulnerability",
+		"origins-plus-plus:nemesis/health",
+		"origins-plus-plus:nemesis/spontaneous_combustion"
+	],
+	"icon":"minecraft:nether_star",
+	"order":116,
+	"impact":3,
+
+	"unchoosable": true
+	
+}

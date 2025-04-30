@@ -1,0 +1,171 @@
+{
+  "name": "Transform",
+  "description": "You transform into your werewolf form, growing larger, stronger, and faster. Ability charges at night, and charges faster under the night sky.",
+  "loading_priority": 10,
+
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1000,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 5
+    },
+    "min_action": {
+      "type": "origins:toggle",
+      "power": "*:*_toggle",
+      "interval": 5
+    }
+  },
+  "use": {
+    "type": "origins:action_over_time",
+    "interval": 2,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": -1
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "night": {
+    "type": "origins:action_over_time",
+    "interval": 2,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 1
+    },
+    "condition": {
+      "type": "origins:daytime",
+      "inverted": true
+    }
+  },
+  "moon": {
+    "type": "origins:action_over_time",
+    "interval": 2,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 1
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:exposed_to_sky"
+        },
+        {
+          "type": "origins:exposed_to_sun",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "toggle": {
+    "type": "origins:toggle",
+    "key": "key.origins.primary_active",
+    "active_by_default": false,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_resource",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "strength": {
+    "type": "apoli:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 3
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 6
+      }
+    ],
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    },
+    "tick_rate": 10
+  },
+  "size": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:juggernaut/size"
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "scale reset"
+    },
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "resource set @s origins-plus-plus:werewolf/transform_resource 1000"
+    }
+  },
+  "reset2": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "scale reset"
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle",
+      "inverted": true
+    },
+    "interval": 10
+  },
+  "hit": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:entity.wolf.hurt master @a[distance=0..5] ~ ~ ~ 1 1 1"
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    },
+    "cooldown": 3
+  },
+  "activate_sound": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "apoli:execute_command",
+      "command": "playsound minecraft:entity.wolf.growl master @a[distance=0..5] ~ ~ ~ 1 1 1"
+    },
+    "key": "key.origins.primary_active",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "passive_sound": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "apoli:execute_command",
+      "command": "playsound minecraft:entity.wolf.growl master @a[distance=0..5] ~ ~ ~ 1 1 1"
+    },
+    "interval": 300,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  }
+}

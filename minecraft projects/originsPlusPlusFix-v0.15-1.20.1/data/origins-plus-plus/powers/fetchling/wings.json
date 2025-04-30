@@ -1,0 +1,8 @@
+{
+  "name": "Wings",
+  "description": "You have black wings that allow you to fly though the void.",
+  "type": "medievalorigins:icarus_wings",
+  "wings_type": {
+    "item": "icarus:black_dragon_wings"
+  }
+}

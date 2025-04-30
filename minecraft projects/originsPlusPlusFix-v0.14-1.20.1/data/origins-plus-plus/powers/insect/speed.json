@@ -1,0 +1,12 @@
+{
+	"loading_priority": 10,
+	"type": "origins:multiple",
+	"land_speed": {
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"value": 0.2,
+			"operation": "addition"
+		}
+	}
+}

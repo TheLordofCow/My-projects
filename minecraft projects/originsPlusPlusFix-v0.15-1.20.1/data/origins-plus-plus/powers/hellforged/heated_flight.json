@@ -1,0 +1,21 @@
+{
+  "name": "Scorching Flight",
+  "description": "Your creators gave you the ability to fly! It only works in extreme heat while also on fire unfortunately.",
+  "type": "origins:creative_flight",
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:biome",
+        "condition": {
+          "type": "origins:temperature",
+          "comparison": ">",
+          "compare_to": 1.5
+        }
+      },
+      {
+        "type": "origins:on_fire"
+      }
+    ]
+  }
+}

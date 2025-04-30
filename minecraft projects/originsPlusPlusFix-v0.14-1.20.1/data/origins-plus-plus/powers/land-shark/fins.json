@@ -1,0 +1,17 @@
+{
+	"loading_priority": 10,
+	"condition":{
+		"type":"origins:on_block",
+		"show_particles":false
+	},
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":40,
+	"tick_rate": 5,
+	"effect":{
+		"effect":"minecraft:slowness",
+		"show_particles":false,
+		"show_icon":false
+	}
+}

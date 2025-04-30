@@ -1,0 +1,16 @@
+{
+  "loading_priority": 10,
+  "replace": false,
+  "values": [
+    "minecraft:golden_helmet",
+    {"id":"adventurez:stone_golem_chestplate","required":false},
+    {"id":"adventurez:stone_golem_helmet","required":false},
+    {"id":"adventurez:stone_golem_leggings","required":false},
+    {"id":"adventurez:stone_golem_boots","required":false},
+    {"id":"epicempires:spartan_chestplate","required":false},
+    {"id":"epicempires:spartan_helmet","required":false},
+    {"id":"epicempires:spartan_leggings","required":false},
+    {"id":"epicempires:spartan_boots","required":false}
+    
+  ]
+}

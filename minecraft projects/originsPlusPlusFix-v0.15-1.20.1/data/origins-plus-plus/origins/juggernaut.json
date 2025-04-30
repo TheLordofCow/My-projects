@@ -1,0 +1,16 @@
+{
+  "loading_priority": 10,
+  "name": "Juggernaut",
+  "description": "You go on a rampage when you kill your enemies, and get stronger for every kill.",
+  "powers": [
+    "origins-plus-plus:juggernaut/RAGE",
+    "origins-plus-plus:juggernaut/might",
+    "origins-plus-plus:juggernaut/reckless",
+    "origins-plus-plus:juggernaut/no_shield",
+    "origins-plus-plus:juggernaut/ravenous",
+    "origins-plus-plus:juggernaut/size"
+  ],
+  "icon": "minecraft:netherite_chestplate",
+  "order": 115,
+  "impact": 3
+}

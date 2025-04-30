@@ -1,0 +1,28 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:climbing",
+    "origins:fragile",
+    "origins:more_kinetic_damage",
+    "origins-plus-plus:iceling/blue_transparent_skin",
+    "origins-plus-plus:iceling/cold_power",
+    "origins-plus-plus:iceling/fire",
+    "origins-plus-plus:iceling/harvest_now",
+    "origins-plus-plus:iceling/hot_biome",
+    "origins-plus-plus:iceling/no_hunger",
+    "origins-plus-plus:iceling/shard",
+    "origins-plus-plus:iceling/size",
+    "origins-plus-plus:iceling/snow_spawn",
+    "origins-plus-plus:iceling/speed",
+    "origins-plus-plus:iceling/water",
+    "origins-plus-plus:ice-king/freeze_immune",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance",
+    "origins_env_deh:water_dweller"
+  ],
+  "icon": "minecraft:ice",
+  "order": 51,
+  "impact": 3
+}

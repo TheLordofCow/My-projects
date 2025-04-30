@@ -1,0 +1,28 @@
+{
+  "name": "End Spawn",
+  "description": "[Specator Outlines] Your Native Dimension is The End, and you can set your spawn point at any time as long as you are in The End.",
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "spawn": {
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:the_end",
+    "biome": "minecraft:end_highlands"
+  },
+  "respawn": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "spawnpoint @s ~ ~ ~"
+    },
+    "key": "key.spectatorOutlines",
+    "cooldown": 1000,
+    "condition": {
+      "type": "origins:dimension",
+      "dimension": "minecraft:the_end"
+    },
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 0
+    }
+  }
+}

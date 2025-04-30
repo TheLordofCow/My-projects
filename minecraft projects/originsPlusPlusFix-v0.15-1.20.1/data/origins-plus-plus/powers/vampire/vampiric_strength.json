@@ -1,0 +1,33 @@
+{
+  "name": "Vampiric Strength",
+  "description": "You are stronger and faster than humans.",
+  "type": "origins:multiple",
+  "effects": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effects": [
+      {
+        "effect": "minecraft:haste",
+        "show_particles": false,
+        "show_icon": false
+      },
+      {
+        "effect": "minecraft:speed",
+        "show_particles": false,
+        "show_icon": false
+      }
+    ]
+  },
+  "attribute": {
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 4
+      }
+    ]
+  }
+}

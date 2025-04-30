@@ -1,0 +1,9 @@
+{
+  "name": "Ravenous",
+  "description": "You need to eat twice as much as normal to sustain your strength",
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"bright":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:heal",
+			"amount":1
+		},
+		"interval":80,
+		"condition": {
+		"type": "origins:in_block",
+		"block_condition": {
+			"type": "origins:light_level",
+			"comparison": ">=",
+			"compare_to": 8
+		}
+	}
+	},
+	"dark":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:heal",
+			"amount":1
+		},
+		"interval":40,
+		"condition": {
+		"type": "origins:in_block",
+		"block_condition": {
+			"type": "origins:light_level",
+			"comparison": "<",
+			"compare_to": 8
+		}
+	}
+	},
+	"hidden":true
+}

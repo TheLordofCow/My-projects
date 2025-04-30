@@ -1,0 +1,22 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:fresh_air",
+    "origins:fall_immunity",
+    "origins:vegetarian",
+    "origins-plus-plus:mountain-goat/high_jump",
+    "origins-plus-plus:mountain-goat/high_jump_a",
+    "origins-plus-plus:mountain-goat/ram",
+    "origins-plus-plus:mountain-goat/ram_a",
+    "origins-plus-plus:mountain-goat/thick_coat",
+    "origins-plus-plus:mountain-goat/thick_coat_a",
+    "origins-plus-plus:mountain-goat/tough",
+    "origins_env_deh:cold_resistance",
+    "thermoo-patches:cold_immune",
+    "origins_survive:cold_resistance",
+    "origins_toughasnails:cold_resistance"
+  ],
+  "icon": "minecraft:white_wool",
+  "order": 67,
+  "impact": 1
+}

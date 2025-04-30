@@ -1,0 +1,20 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "origins:carnivore",
+    "origins:cat_vision",
+    "origins:elytra",
+    "origins:fall_immunity",
+    "origins:fragile",
+    "origins:no_shield",
+    "origins:scare_creepers",
+    "origins-plus-plus:felvaxian/feline_legs",
+    "origins-plus-plus:felvaxian/ravens_defense",
+    "origins-plus-plus:felvaxian/scavenger_pouch",
+    "origins-plus-plus:felvaxian/unholy_aura",
+    "origins-plus-plus:wyverian/wind"
+  ],
+  "icon": "minecraft:black_dye",
+  "order": 36,
+  "impact": 2
+}

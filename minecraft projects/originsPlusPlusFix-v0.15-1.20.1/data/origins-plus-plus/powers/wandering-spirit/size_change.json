@@ -1,0 +1,36 @@
+{
+  "loading_priority": 10,
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:wandering-spirit/size_resource",
+      "comparison": "<",
+      "compare_to": 1
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:wandering-spirit/small2"
+    },
+    "else_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:wandering-spirit/size_resource",
+        "comparison": ">",
+        "compare_to": 1
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:wandering-spirit/large2"
+      },
+      "else_action": {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:wandering-spirit/normal2"
+      }
+    }
+  },
+  "interval": 20
+}

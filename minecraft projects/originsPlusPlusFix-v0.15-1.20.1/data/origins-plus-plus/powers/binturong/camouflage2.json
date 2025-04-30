@@ -1,0 +1,60 @@
+{
+  "name": "Camouflage",
+  "description": "[Save Toolbar Activator] You can camouflage into your surroundings to become invisible, but use hunger doing so",
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": "key.saveToolbarActivator"
+  },
+  "invisibility": {
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "hunger": {
+    "type": "origins:exhaust",
+    "interval": 20,
+    "exhaustion": 1,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "stealth": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:binturong/stealth"
+    },
+    "key": "key.saveToolbarActivator",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "remove_stealth": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:binturong/remove_stealth"
+    },
+    "key": "key.saveToolbarActivator",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle",
+      "inverted": true
+    }
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "scale reset"
+    }
+  }
+}

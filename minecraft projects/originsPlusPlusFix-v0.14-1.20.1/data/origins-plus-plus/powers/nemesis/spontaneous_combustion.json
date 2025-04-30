@@ -1,0 +1,23 @@
+{
+	"name":"Spontaneous Combustion",
+	"description":"In hot environments such as desets and the nether, you will randomly catch fire.",
+	"loading_priority": 10,
+	"type":"origins:action_over_time",
+		"entity_action":{
+    	"type": "origins:chance",
+    	"action":{
+        	"type": "origins:set_on_fire",
+        	"duration": 4
+    	},
+    	"chance": 0.1
+	},
+	"interval": 100,
+	"condition":{
+		"type":"origins:biome",
+		"condition":{
+			"type":"origins:temperature",
+			"comparison":">=",
+			"compare_to":2
+		}
+	}
+}

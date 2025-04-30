@@ -1,0 +1,26 @@
+{
+	"name": "power.origins-plus-plus.reign-farmer/photosynthesis.name",
+	"description": "power.origins-plus-plus.reign-farmer/photosynthesis.description",
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"regenerate_food":{
+		"type":"origins:action_over_time",
+		"interval":100,
+		"entity_action":{
+			"type":"origins:feed",
+			"food":1,
+			"saturation":0.5
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:daytime"
+				},
+				{
+					"type":"origins:exposed_to_sky"
+				}
+			]
+		}
+	}
+}

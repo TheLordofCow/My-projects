@@ -1,0 +1,26 @@
+{
+  "name": "power.origins-plus-plus.mouse/mischievous.name",
+  "description": "power.origins-plus-plus.mouse/mischievous.description",
+  "loading_priority": 10,
+  "type": "origins:active_self",
+  "key": "key.origins.secondary_active",
+  "cooldown": 300,
+  "hud_render": {
+    "bar_index": 0
+  },
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:speed",
+        "duration": 100,
+        "amplifier": 2
+      },
+      {
+        "effect": "minecraft:jump_boost",
+        "duration": 100,
+        "amplifier": 1
+      }
+    ]
+  }
+}

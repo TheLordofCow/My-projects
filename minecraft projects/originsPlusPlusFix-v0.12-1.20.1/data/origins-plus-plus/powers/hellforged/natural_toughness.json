@@ -1,0 +1,10 @@
+{
+	"name":"Natural Toughness",
+	"description": "Your body isn't armored, but instead is incredibly tough. It's effect is minimal without armor however.",
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.armor_toughness",
+		"value":4,
+		"operation":"addition"
+	}
+}

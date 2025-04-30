@@ -1,0 +1,26 @@
+{
+  "loading_priority": 10,
+    "replace": false,
+    "values": [
+      "minecraft:trident",
+      {"id":"simplyswords:arcanethyst","required":false},
+      {"id":"simplyswords:flamewind","required":false},
+      {"id":"simplyswords:sword_on_a_stick","required":false},
+      {"id":"simplyswords:wickpiercer","required":false},
+      {"id":"simplyswords:thunderbrand","required":false},
+      {"id":"bosses_of_mass_destruction:earthdive_spear","required":false},
+      {"id":"alexscaves:extinction_spear","required":false},
+      {"id":"alexscaves:limestone_spear","required":false},
+      {"id":"alexscaves:ortholance","required":false},
+      {"id":"cataclysm:coral_spear","required":false},
+      {"id":"samurai_dynasty:nagamaki","required":false},
+      {"id":"samurai_dynasty:naginata","required":false},
+      {"id":"samurai_dynasty:tonbukiri","required":false},
+      {"id":"samurai_dynasty:kamayari","required":false},
+      {"id":"samurai_dynasty:nagamaki_netherite","required":false},
+      {"id":"samurai_dynasty:naginata_netherite","required":false},
+      {"id":"samurai_dynasty:tonbukiri_netherite","required":false},
+      {"id":"samurai_dynasty:kamayari_netherite","required":false}
+    ]
+  }
+  

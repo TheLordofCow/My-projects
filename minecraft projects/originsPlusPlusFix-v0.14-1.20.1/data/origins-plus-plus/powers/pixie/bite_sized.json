@@ -1,0 +1,40 @@
+{
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"scale":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:pixie/size2"
+		},
+		"interval":20
+	},
+	"reset":{
+		"type":"origins:action_on_callback",
+		"entity_action_lost":{
+			"type":"origins:execute_command",
+			"command":"scale reset"
+		}
+	},
+	"attribute_modifiers":{
+		"type":"origins:attribute",
+		"modifiers":[
+			{
+				"attribute":"minecraft:generic.max_health",
+				"operation":"addition",
+				"value":-10
+			},
+			{
+				"attribute":"minecraft:generic.attack_speed",
+				"operation":"addition",
+				"value":0.4
+			},
+			{
+				"attribute":"minecraft:generic.movement_speed",
+				"operation":"multiply_base",
+				"value":0.2
+			}
+		],
+		"update_health":true
+	}
+}

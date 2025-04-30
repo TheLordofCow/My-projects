@@ -1,0 +1,7 @@
+{
+  "loading_priority": 10,
+  "type": "origins:lava_vision",
+  "s": 50,
+  "v": 70,
+  "hidden": true
+}

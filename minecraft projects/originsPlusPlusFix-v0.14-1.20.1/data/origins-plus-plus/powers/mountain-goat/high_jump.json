@@ -1,0 +1,39 @@
+{
+	"loading_priority": 10,
+	"type":"origins:multiple",
+	"toggle":{
+		"type":"origins:toggle",
+		"active_by_default":false,
+		"key":"key.origins.secondary_active"
+	},
+	"jump":{
+		"type":"origins:modify_jump",
+		"modifier":{
+			"operation":"addition",
+			"value":0.3
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:power_active",
+					"power":"origins-plus-plus:mountain-goat/high_jump_toggle"
+				},
+				{
+					"type":"origins:food_level",
+					"comparison":">",
+					"compare_to":6
+				}
+			]
+		}
+	},
+	"sound":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:play_sound",
+			"sound":"block.end_portal_frame.fill",
+			"pitch":0.1
+		},
+		"key":"key.origins.secondary_active"
+	}
+}

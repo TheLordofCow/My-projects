@@ -1,0 +1,9 @@
+{
+	"loading_priority": 10,
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.armor",
+		"operation":"addition",
+		"value":4
+	}
+}

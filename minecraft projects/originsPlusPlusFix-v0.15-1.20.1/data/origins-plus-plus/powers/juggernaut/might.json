@@ -1,0 +1,35 @@
+{
+  "loading_priority": 10,
+  "name": "Harder Better Faster Stronger",
+  "description": "Passive strength, speed, haste, and resistance",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:strength",
+        "show_particles": false,
+        "show_icon": true,
+        "duration": -1
+      },
+      {
+        "effect": "minecraft:haste",
+        "show_particles": false,
+        "show_icon": true,
+        "duration": -1
+      },
+      {
+        "effect": "minecraft:speed",
+        "show_particles": false,
+        "show_icon": true,
+        "duration": -1
+      },
+      {
+        "effect": "minecraft:resistance",
+        "show_particles": false,
+        "show_icon": true,
+        "duration": -1
+      }
+    ]
+  }
+}

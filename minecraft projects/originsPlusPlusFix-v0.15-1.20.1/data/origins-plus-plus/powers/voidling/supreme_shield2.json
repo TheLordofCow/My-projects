@@ -1,0 +1,72 @@
+{
+  "name": "power.origins-plus-plus.voidling/supreme_shield.name",
+  "description": "power.origins-plus-plus.voidling/supreme_shield.description",
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "summon_shield": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 41,
+    "tick_rate": 40,
+    "effects": [
+      {
+        "effect": "minecraft:absorption",
+        "show_particles": false,
+        "show_icon": false
+      },
+      {
+        "effect": "minecraft:resistance",
+        "amplifier": 2,
+        "show_particles": false,
+        "show_icon": false
+      },
+      {
+        "effect": "minecraft:slowness",
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": false
+      }
+    ],
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:voidling/void_energy2_charge",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:power_active",
+          "power": "origins-plus-plus:voidling/supreme_shield_toggle"
+        }
+      ]
+    },
+    "key": "key.origins.secondary_active"
+  },
+  "shield": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "origins-plus-plus:voidling/void_energy2_charge",
+      "change": -5
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:voidling/void_energy2_charge",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:power_active",
+          "power": "origins-plus-plus:voidling/supreme_shield_toggle"
+        }
+      ]
+    }
+  }
+}

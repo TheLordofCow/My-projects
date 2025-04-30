@@ -1,0 +1,10 @@
+{
+  "name": "power.origins-plus-plus.goolien/stomach_body.name",
+  "description": "You have immunity to hunger and poison effects.",
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "no_hunger": {
+    "type": "origins:effect_immunity",
+    "effects": ["minecraft:hunger", "minecraft:poison"]
+  }
+}

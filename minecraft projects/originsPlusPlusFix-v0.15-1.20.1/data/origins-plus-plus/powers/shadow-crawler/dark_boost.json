@@ -1,0 +1,43 @@
+{
+  "loading_priority": 10,
+  "type": "origins:multiple",
+  "attributes": {
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_base",
+        "value": 0.75
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 3
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 6
+      }
+    ],
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:light_level",
+        "comparison": "<=",
+        "compare_to": 7
+      }
+    }
+  },
+  "night_vision": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 300,
+    "effect": {
+      "effect": "minecraft:night_vision",
+      "show_particles": false,
+      "show_icon": false
+    }
+  }
+}
